@@ -1,0 +1,24 @@
+/*
+COLORS:
+
+Light green: $color-primary-light;
+Medium green: $color-primary;
+Dark green: $color-primary-dark;
+
+*/
+
+
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+
+@import "pages/home";
+@import "layout/header";
+@import "components/button";
