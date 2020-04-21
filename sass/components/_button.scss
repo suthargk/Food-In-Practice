@@ -10,7 +10,7 @@
         display: inline-block;
         padding: 1.5rem 4rem;
         transition: all .2s;
-        font-size: 1.6rem;
+        font-size: $default-font-size;
         position: relative;
     }
 
@@ -57,4 +57,25 @@
         animation : moveInBottom .5s ease-in-out .75s;
         animation-fill-mode: backwards;
     }
+}
+
+.btn-text   {
+    &:link,
+    &:visited {
+    font-size: $default-font-size;
+    text-decoration: none;
+    color: $color-primary;
+    border-bottom: 1px solid  $color-primary;
+    padding: 3px;
+    transition: all .2s;
+    display: inline-block;
+    }
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-2px);
+    }
+
 }
